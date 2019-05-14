@@ -8,36 +8,30 @@ body {
 }
 
 .logo {
-  height: 30%;
-  width: 30%;
+  height: 50%;
+  width: 50%;
   margin-top: 5%;
-  margin-left: 35%;
+  margin-right: 15%;
   margin-bottom: 5%;
+  display: inline-block;
 }
 
 .start {
-  height: 30px;
-  width: 70px;
+  height: 50px;
+  width: 130px;
   background-color: #E831D4;
-  font-size: medium;
+  font-size: 30px;
   color: #4F276F  ;
   font-weight: bold;
   border-color: #E831D4;
+  display: inline-block;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   box-shadow: white;
-  margin-left: 45%;
+  margin-left: 65%;
+  margin-top: -100%;
 
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
