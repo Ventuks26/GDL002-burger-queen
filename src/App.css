@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+  margin-top: 5%;
+  margin-left: 35%;
+  margin-bottom: 5%;
+}
+
+.start {
+  height: 30px;
+  width: 70px;
+  background-color: #E831D4;
+  font-size: medium;
+  color: #4F276F  ;
+  font-weight: bold;
+  border-color: #E831D4;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: white;
+  margin-left: 45%;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
