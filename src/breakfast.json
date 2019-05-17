@@ -1,0 +1,23 @@
+{ "breakfast": [{
+            "description": "Café americano",
+            "price": "$5", 
+            "type":  "drink"
+        },
+        {
+            "description": "Café con leche",
+            "price": "$7",
+            "type":  "drink"  
+        },
+        {
+            "description": "Jugo de frutas natural",
+            "price": "$7",
+            "type":  "drink"
+        },
+        
+        {
+            "description": "Sandwich de jamón y queso",
+            "price": "$10",
+            "type":  "food"  
+        }]
+    }
+    
