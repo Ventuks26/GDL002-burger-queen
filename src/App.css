@@ -36,11 +36,26 @@ body {
 
 }
 
-.backgroundMenu{
-  background-color: #4F276F;
-}
-
 .menu{
   display:block;
   padding:5px; 
+}
+
+
+
+ .titleMeal, .titleBreakfast{
+  font-size: 20px;
+}
+
+.out{
+  height: 50px;
+  width: 130px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-left: 65%;
+  margin-top: -100%;
 }

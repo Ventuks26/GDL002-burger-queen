@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "./img/logo.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Home extends Component {
   render() {
@@ -11,8 +11,11 @@ class Home extends Component {
         </div>
         <div className=" col-sm-offset-6">
           >
-        <Link to="/waiter"><button type="button" className="start">Inicio</button></Link>
-          
+          <Link to="/waiter">
+            <button type="button" className="start">
+              Inicio
+            </button>
+          </Link>
         </div>
       </div>
     );

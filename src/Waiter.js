@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import MenuBreakfast from "./BreakfastMenu";
 import MenuMeal from "./MealMenu";
 import OrderCard from "./OrderCard";
+import {Link} from "react-router-dom"
 
 class Waiter extends Component {
   render() {
@@ -21,7 +22,10 @@ class Waiter extends Component {
         </div> <br></br>
         <div className="backgroundOrder col-sm-6">
           <OrderCard />
-        </div>
+          </div>
+          
+        <Link to="/"><button type="button" className="out">Salir</button></Link>
+      
       </div>
     );
   }
