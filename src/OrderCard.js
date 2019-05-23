@@ -4,7 +4,6 @@ import {
   CardText,
   CardBody,
   CardTitle,
-  CardSubtitle,
   Button
 } from "reactstrap";
 
@@ -14,9 +13,7 @@ const OrderCard = props => {
       <Card>
         <CardBody>
           <CardTitle>Orden</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText className="impresionPrueba">
-            
           </CardText>
           <Button>Enviar a Cocina</Button>
         </CardBody>

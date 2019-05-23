@@ -14,22 +14,35 @@ class MenuBreakfast extends Component {
     
   }
   addItem = (event) => {
-        const target = event.currentTarget;
-        const keyDescription = target.getAttribute("name");
-        const keyPrice = target.getAttribute("value");
-        const container = document.getElementsByClassName("impresionPrueba")[0];
-        container.innerHTML=keyDescription;
-        console.log(keyDescription, keyPrice)
 
-        const object = {
-            keyDescription,
-            keyPrice
-        }
-
-        this.setState ({
-            printOrder: [...this.state.printOrder, object]
-            }, () => console.log(this.state.printOrder))
+    const target = event.currentTarget;
+    const keyDescription = target.getAttribute("name");
+    const keyPrice = target.getAttribute("value");
+    const container = document.getElementsByClassName("impresionPrueba")[0];
+    container.innerHTML= " ";
+       
+    console.log(keyDescription, keyPrice)
+    
+    const object = {
+      keyDescription,
+      keyPrice
     }
+    
+    this.setState ({
+        printOrder: [...this.state.printOrder, object]
+        }, () => {
+            console.log(this.state.printOrder)
+         this.state.printOrder.forEach((item,i)=>{
+               container.innerHTML+=item.keyDescription
+    
+            })
+        })
+    
+        
+        
+    console.log(this.state.printOrder);
+
+}
     
   render() {
     console.log(Breakfast.breakfast[0]);
