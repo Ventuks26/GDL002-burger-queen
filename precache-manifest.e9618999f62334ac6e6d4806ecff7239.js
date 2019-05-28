@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "108337cb24e9674046b921b0a485a4a8",
+    "revision": "7a31e6a6e1337fedbd1f292b25f24612",
     "url": "/GDL002-burger-queen/index.html"
   },
   {
-    "revision": "7a1ef951f01826e9c5fb",
+    "revision": "06c9bd1d4437989f30be",
     "url": "/GDL002-burger-queen/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "db9c287228f91e9dd991",
-    "url": "/GDL002-burger-queen/static/css/main.7b73001f.chunk.css"
+    "revision": "50ebf6a36f069b37bf4b",
+    "url": "/GDL002-burger-queen/static/css/main.4bf82d64.chunk.css"
   },
   {
-    "revision": "7a1ef951f01826e9c5fb",
-    "url": "/GDL002-burger-queen/static/js/2.862f5688.chunk.js"
+    "revision": "06c9bd1d4437989f30be",
+    "url": "/GDL002-burger-queen/static/js/2.0eda45d0.chunk.js"
   },
   {
-    "revision": "db9c287228f91e9dd991",
-    "url": "/GDL002-burger-queen/static/js/main.503b5a10.chunk.js"
+    "revision": "50ebf6a36f069b37bf4b",
+    "url": "/GDL002-burger-queen/static/js/main.c40d9768.chunk.js"
   },
   {
     "revision": "f8c6079179fe30af807c",
