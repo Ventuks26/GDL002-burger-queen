@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 
 import "./App.css";
-import Home from "./Home";
-import Waiter from "./Waiter";
+import Home from "./Components/Home";
+import Waiter from "./Components/Waiter";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {

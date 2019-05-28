@@ -13,10 +13,9 @@ body {
 }
 
 .backgroundMenuOrder {
-  background-color: #B3ADBF;
+  background-color: #b3adbf;
   height: 122vh;
 }
-
 
 .logo {
   height: 50%;
@@ -30,12 +29,12 @@ body {
 .start {
   height: 50px;
   width: 130px;
-  background-color: #E831D4;
+  background-color: #e831d4;
   font-size: 30px;
   font-family: cursive;
-  color: #4F276F  ;
+  color: #4f276f;
   font-weight: bold;
-  border-color: #E831D4;
+  border-color: #e831d4;
   display: inline-block;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -45,9 +44,9 @@ body {
   box-shadow: white;
   margin-left: 65%;
   margin-top: -100%;
-
 }
-.breakfastBtn, .mealBtn{
+.breakfastBtn,
+.mealBtn {
   border: none;
   color: black;
   font-family: Verdana;
@@ -67,28 +66,29 @@ body {
 }
 
 .backgroundBreakfast {
-  background-color: #9F40A4;
+  background-color: #9f40a4;
 }
 
 .backgroundMeal {
-  background-color: #E90063;
+  background-color: #e90063;
 }
 
-.titleBreakfast, .titleMeal {
+.titleBreakfast,
+.titleMeal {
   color: #fff;
-  font-family:  Verdana;
+  font-family: Verdana;
   font-size: 20px;
   margin-left: 15%;
 }
 .card-title {
   color: black;
-  font-family:  Verdana;
+  font-family: Verdana;
   font-weight: bold;
   font-size: 18px;
   margin-left: 10%;
 }
 
-.out{
+.out {
   font-family: Verdana;
   height: 50px;
   width: 130px;
@@ -99,34 +99,161 @@ body {
   -o-border-radius: 5px;
   margin-left: 5%;
   margin-top: 30%;
-  
-  
 }
-.sendToKitchen{
+.sendToKitchen {
   font-family: Verdana;
   height: 60px;
   width: 120px;
   margin-left: 60%;
   border-radius: 5px;
-
 }
 
-.card-order{
+.card-order {
   margin-left: 100%;
   margin-top: -80%;
   height: 200px;
-  background-color: #B3ADBF;
+  background-color: #b3adbf;
 }
-.print-order{
+.print-order {
   font-family: Verdana;
   margin-left: 10%;
-
-
 }
 
-.print-total{
+.print-total {
   font-family: Verdana;
   margin-left: 35%;
-  color: #E90063;
+  color: #e90063;
   font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .backgroundMenuOrder {
+    background-color: white;
+    height: 102vh;
+  }
+
+  .logo {
+    height: 80%;
+    width: 80%;
+    margin-top: 50%;
+    margin-left: 20%;
+    margin-bottom: 20%;
+  }
+
+  .start {
+    height: 60px;
+    width: 120px;
+    background-color: #e831d4;
+    font-size: 30px;
+    color: #4f276f;
+    font-weight: bold;
+    border-color: #e831d4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: #e831d4;
+    margin-left: 60%;
+  }
+
+  .backgroundMenuOrder {
+    padding: 0;
+    background-color: #b3adbf;
+  }
+
+  .backgroundBreakfast {
+    background-color: #9f40a4;
+    height: 34vh;
+  }
+
+  .backgroundMeal {
+    background-color: #e90063;
+    height: 55vh;
+  }
+
+  .backgroundDrinks {
+    background-color: #fff;
+    height: 34vh;
+  }
+
+  .breakfastBtn,
+  .mealBtn {
+    border: none;
+    color: black;
+    font-family: Verdana;
+    font-size: 15px;
+    height: 59px;
+    width: 144px;
+    margin-left: 14%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .titleBreakfast,
+  .titleMeal {
+    color: #fff;
+    font-family: Verdana;
+    font-size: 26px;
+    margin-left: 15%;
+    padding-top: 4%;
+  }
+
+  .card-order {
+    margin-left: 100%;
+    margin-top: -135%;
+    height: 200px;
+    background-color: #b3adbf;
+  }
+
+  .card-title {
+    color: black;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 23px;
+  }
+
+  .sendToKitchen {
+    height: 60px;
+    width: 102px;
+    font-family: Verdana;
+    font-size: 12px;
+    border: none;
+    margin-top: 28px;
+    margin-left: 12rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .card-text {
+    color: #fff;
+    font-family: Verdana;
+    font-size: 16px;
+  }
+
+  .print-total {
+    font-family: Verdana;
+    margin-left: 35%;
+    color: #e90063;
+    font-weight: bold;
+  }
+  .out {
+    font-family: Verdana;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 5%;
+    margin-top: 40%;
+  }
 }

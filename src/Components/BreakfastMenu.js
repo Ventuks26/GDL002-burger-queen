@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import Meal from "./meal.json";
+import Breakfast from "../breakfast.json";
 
-class MenuMeal extends Component {
+
+class MenuBreakfast extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      meal: Meal,
+      breakfast: Breakfast,
       order: [],
       printOrder: []
     };
@@ -31,9 +32,9 @@ class MenuMeal extends Component {
       () => {
         console.log(this.state.printOrder);
         this.state.printOrder.forEach((item, i) => {
-          container.innerHTML += `<li>${item.keyDescription}  ${
+          container.innerHTML += `<li>${item.keyDescription}  $${
             item.keyPrice
-          }  <button className="delete"><img src="https://i.postimg.cc/V6dfZxS2/delete.png"></button></li>`;
+          }  <button className="delete" ><img src="https://i.postimg.cc/V6dfZxS2/delete.png"></button></li>`;
         });
         this.total();
       }
@@ -41,7 +42,6 @@ class MenuMeal extends Component {
 
     console.log(this.state.printOrder);
   };
-
   total() {
     const mapItemValue = this.state.printOrder.map(item => {
       let value = parseInt(item.keyPrice);
@@ -51,27 +51,41 @@ class MenuMeal extends Component {
     console.log(totalSum);
     const prinTotal = document.getElementsByClassName("print-total")[0];
     prinTotal.innerHTML = `Total: $  ${totalSum}.00`;
+
     return totalSum;
+  }
+
+  delete(item, i) {
+    this.state.printOrder.forEach(printOrder => {
+      if (printOrder.item.keyDescription === item.keyDescription) {
+        printOrder.item.keyDescription--;
+      } else {
+        this.state.printOrder.splice(i, 1);
+      }
+      this.setState({
+        state: this.state
+      });
+    });
   }
 
   render() {
     return (
       <div>
-        {Meal.meal.map((btnMeal, i) => (
+        {Breakfast.breakfast.map((btnBreakfast, i) => (
           <button
             className="mealBtn"
             onClick={this.addItem}
             type="submit"
             key={i}
-            name={Meal.meal[i].description}
-            value={Meal.meal[i].value}
+            name={Breakfast.breakfast[i].description}
+            value={Breakfast.breakfast[i].value}
           >
-            {btnMeal.description}
-            {btnMeal.price}
+            {btnBreakfast.description}
+            {btnBreakfast.price}
           </button>
         ))}
       </div>
     );
   }
 }
-export default MenuMeal;
+export default MenuBreakfast;
