@@ -1,24 +1,17 @@
 import React from "react";
-import {
-  Card,
-  CardText,
-  CardBody,
-  CardTitle,
-  Button
-} from "reactstrap";
+import { CardText, CardTitle, Button } from "reactstrap";
 
 const OrderCard = props => {
   return (
-    <div>
-      <Card>
-        <CardBody>
-          <CardTitle>Orden</CardTitle>
-          <CardText className="impresionPrueba">
-          </CardText>
-          <Button>Enviar a Cocina</Button>
-        </CardBody>
-      </Card>
-    </div>
+    
+      <div className="card-order col-sm-6">
+        <CardTitle className="card-title">Orden</CardTitle>
+        <CardText className="print-order"></CardText>
+        <CardText className="print-total">
+        </CardText>
+        <Button className="sendToKitchen">Enviar a Cocina</Button>
+      </div>
+    
   );
 };
 export default OrderCard;

@@ -2,18 +2,21 @@
             "id":1,
             "description": "Café americano",
             "price": "$5", 
+            "value": 5,
             "type":  "drink"
         },
         {
             "id":2,
             "description": "Café con leche",
             "price": "$7",
+            "value": 7,
             "type":  "drink"  
         },
         {
             "id":3,
             "description": "Jugo de frutas natural",
             "price": "$7",
+            "value": 7,
             "type":  "drink"
         },
         
@@ -21,6 +24,7 @@
             "id":4,
             "description": "Sandwich de jamón y queso",
             "price": "$10",
+            "value": 10,
             "type":  "food"  
         }]
     }

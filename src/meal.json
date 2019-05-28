@@ -3,23 +3,27 @@
             
     "description": "Hamburguesa simple",
     "price": "$10",
+    "value": 10,
     "type":  "hamburger"     
     
 },
 {
     "description": "Hamburguesa doble",
     "price": "$15",
+    "value": 15,
     "type":  "hamburger"   
 },
 
 {
     "description": "Papas fritas",
     "price": "$5",
+    "value": 5,
     "type":  "extra"    
 },
 {
     "description": "Aros de cebolla",
     "price": "$7",
+    "value": 7,
     "type":  "extra"    
 },
 
@@ -28,21 +32,25 @@
 {
     "description": "Agua 500ml",
     "price": "$5",
+    "value": 5,
     "type":  "drinks"     
 },
 {
     "description": "Agua 750ml",
     "price": "$7",
+    "value": 7,
     "type":  "drinks"       
 },
 {
     "description": "Bebida/gaseosa 500ml",
     "price": "$7",
+    "value": 7,
     "type":  "drinks"       
 },
 {
     "description": "Bebida/gaseosa 750ml",
     "price": "$10",
+    "value": 10,
     "type":  "drinks"       
 }
 

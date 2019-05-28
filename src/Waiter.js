@@ -7,8 +7,8 @@ import {Link} from "react-router-dom"
 class Waiter extends Component {
   render() {
     return (
-      <div className="backgroundBreakfast row-sm-12">
-        <div className="col-sm-6">
+      <div className="backgroundMenuOrder row-sm-12">
+        <div className="menu col-sm-6">
           <div className="backgroundBreakfast">
             <p className="titleBreakfast">Desayuno</p>
             <MenuBreakfast />
@@ -19,10 +19,10 @@ class Waiter extends Component {
             <p className="titleMeal">Comida</p>
             <MenuMeal />
           </div>
-        </div> <br></br>
-        <div className="backgroundOrder col-sm-6">
           <OrderCard />
-          </div>
+          
+        </div> <br></br>
+        
           
         <Link to="/"><button type="button" className="out">Salir</button></Link>
       

@@ -7,6 +7,17 @@ body {
   background-color: white;
 }
 
+.backgroundHome {
+  background-color: white;
+  height: 100%;
+}
+
+.backgroundMenuOrder {
+  background-color: #B3ADBF;
+  height: 122vh;
+}
+
+
 .logo {
   height: 50%;
   width: 50%;
@@ -21,6 +32,7 @@ body {
   width: 130px;
   background-color: #E831D4;
   font-size: 30px;
+  font-family: cursive;
   color: #4F276F  ;
   font-weight: bold;
   border-color: #E831D4;
@@ -35,27 +47,86 @@ body {
   margin-top: -100%;
 
 }
-
-.menu{
-  display:block;
-  padding:5px; 
+.breakfastBtn, .mealBtn{
+  border: none;
+  color: black;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 50px;
+  width: 100px;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.Menu {
+  padding: 0;
 }
 
+.backgroundBreakfast {
+  background-color: #9F40A4;
+}
 
+.backgroundMeal {
+  background-color: #E90063;
+}
 
- .titleMeal, .titleBreakfast{
+.titleBreakfast, .titleMeal {
+  color: #fff;
+  font-family:  Verdana;
   font-size: 20px;
+  margin-left: 15%;
+}
+.card-title {
+  color: black;
+  font-family:  Verdana;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10%;
 }
 
 .out{
+  font-family: Verdana;
   height: 50px;
   width: 130px;
-  display: inline-block;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  margin-left: 65%;
-  margin-top: -100%;
+  margin-left: 5%;
+  margin-top: 30%;
+  
+  
+}
+.sendToKitchen{
+  font-family: Verdana;
+  height: 60px;
+  width: 120px;
+  margin-left: 60%;
+  border-radius: 5px;
+
+}
+
+.card-order{
+  margin-left: 100%;
+  margin-top: -80%;
+  height: 200px;
+  background-color: #B3ADBF;
+}
+.print-order{
+  font-family: Verdana;
+  margin-left: 10%;
+
+
+}
+
+.print-total{
+  font-family: Verdana;
+  margin-left: 35%;
+  color: #E90063;
+  font-weight: bold;
 }
