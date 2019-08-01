@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Meal from "../meal.json";
+import Meal from "./meal.json";
 
 class MenuMeal extends Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Breakfast from "../breakfast.json";
+import Breakfast from "./breakfast.json";
 
 
 class MenuBreakfast extends Component {
